@@ -5,3 +5,59 @@
 
 
 
+
+.carousel-caption{
+  top: 20%;  
+}
+.e4{
+  border-radius: 50px;
+  color: white;
+  background-color: blueviolet;
+  height: 60px;
+  width: 200px;
+  border-style: none;
+  margin-top: 2%;
+}
+
+.noborder{
+  border: 0;
+}
+
+
+.s1{
+  font-size: 3rem;
+}
+
+
+@media only screen and (max-width: 900px) {
+  
+  .s1{
+    font-size: 2rem;
+  }
+  
+  
+  
+}
+
+@media only screen and (max-width: 700px) {
+  .s1{
+    font-size: 1.5rem;
+  }
+ 
+  
+  
+  
+}
+
+@media only screen and (max-width: 500px) {
+  .s1{
+    font-size: 1rem;
+  }
+  
+  
+}
+
+
+
+
+
