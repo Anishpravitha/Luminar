@@ -100,17 +100,14 @@ body{
 .carousel h1{
     animation: anim 1s ease 0.2s 1;
 }
-@keyframes anim{
-    0%{
-        transform: translateY(500px);
-    }
-    100%{
-        transform: translateY(0px);
-    }
+
+.carousel button{
+    animation: anim 1s ease 0.4s 1;
 }
 
+
 .first{
-    height: 500px;
+    
     margin: 0;
     width: 85%;
     max-width: 100%;
@@ -170,16 +167,6 @@ p{
 div img{
     height:100%;
 }
-.python{
-    height: 400px;
-    
-}
-
-.courses{
-    height: 500px;
-}
-
-
 
 
 .co img:hover{
